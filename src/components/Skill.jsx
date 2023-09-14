@@ -1,4 +1,4 @@
-import { PropTypes } from "prop-types";
+import PropTypes from "prop-types";
 
 export default function Skill({ icon, name, color }) {
   return (
@@ -13,7 +13,7 @@ export default function Skill({ icon, name, color }) {
 }
 
 Skill.propTypes = {
-  icon: PropTypes.node,
-  name: PropTypes.string,
-  color: PropTypes.string,
+  icon: PropTypes.element.isRequired,
+  name: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
 };

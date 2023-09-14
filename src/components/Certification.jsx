@@ -26,8 +26,8 @@ export default function Certification({
 }
 
 Certification.propTypes = {
-  certificationName: PropTypes.string,
-  imageSrc: PropTypes.string,
-  certificationProvider: PropTypes.string,
-  certificateURL: PropTypes.string,
+  certificationName: PropTypes.string.isRequired,
+  imageSrc: PropTypes.string.isRequired,
+  certificationProvider: PropTypes.string.isRequired,
+  certificateURL: PropTypes.string.isRequired,
 };

@@ -14,8 +14,8 @@ export default function Education({ education, imageSrc, educator, range }) {
 }
 
 Education.propTypes = {
-  education: PropTypes.string,
-  imageSrc: PropTypes.string,
-  educator: PropTypes.string,
-  range: PropTypes.string,
+  education: PropTypes.string.isRequired,
+  imageSrc: PropTypes.string.isRequired,
+  educator: PropTypes.string.isRequired,
+  range: PropTypes.string.isRequired,
 };

@@ -24,9 +24,9 @@ export default function Experience({
 }
 
 Experience.propTypes = {
-  desgination: PropTypes.string,
-  imageSrc: PropTypes.string,
-  company: PropTypes.string,
-  range: PropTypes.string,
+  desgination: PropTypes.string.isRequired,
+  imageSrc: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  range: PropTypes.string.isRequired,
   invertImage: PropTypes.bool,
 };

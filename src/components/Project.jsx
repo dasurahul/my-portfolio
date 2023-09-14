@@ -42,9 +42,9 @@ export default function Project({
 }
 
 Project.propTypes = {
-  title: PropTypes.string,
-  subtitle: PropTypes.string,
-  imageSrc: PropTypes.string,
-  githubUrl: PropTypes.string,
-  liveUrl: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  imageSrc: PropTypes.string.isRequired,
+  githubUrl: PropTypes.string.isRequired,
+  liveUrl: PropTypes.string.isRequired,
 };
