@@ -4,7 +4,13 @@ import {
   BiLogoTypescript,
 } from "react-icons/bi";
 import { FaAngular, FaReact } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiNextdotjs, SiSass } from "react-icons/si";
+import {
+  SiExpress,
+  SiMongodb,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiSass,
+} from "react-icons/si";
 
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
@@ -68,8 +74,9 @@ export default function App() {
           color="#0DB7ED"
         />
         <Skill icon={<SiSass />} name="Sass" color="#C69" />
-        <Skill icon={<SiMongodb />} name="Mongo DB" color="#00684A" />
+        <Skill icon={<SiMongodb />} name="MongoDB" color="#00684A" />
         <Skill icon={<SiExpress />} name="Express.js" color="#000000" />
+        <Skill icon={<SiNodedotjs />} name="Node.js" color="#3C873A" />
       </Section>
 
       <Section title="Education">
