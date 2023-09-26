@@ -24,7 +24,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="max-w-6xl mx-auto px-4 font-mono">
+    <div className="max-w-6xl mx-auto px-4">
       <Navbar />
       <Intro />
 
