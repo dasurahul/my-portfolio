@@ -2,7 +2,7 @@ import { GrCloudDownload } from "react-icons/gr";
 
 export default function Navbar() {
   const cvURL =
-    "https://docs.google.com/document/d/1tMJ2DdGmZV3cR49JPFjO2gWoABP4kJWQzo2B-7EAgmo/edit?usp=sharing";
+    "https://drive.google.com/file/d/1H6pxFOhNteguc1rGIadEXoU8ukx0XB8v/view?usp=drive_link";
   return (
     <div className="flex justify-between items-center h-20">
       <div>Rahul</div>
