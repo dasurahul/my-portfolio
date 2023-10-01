@@ -54,6 +54,13 @@ export default function App() {
           githubUrl="https://github.com/dasurahul/encode"
         />
         <Project
+          title="Friends App"
+          subtitle="This is a application that allows users to search for a character in the friends series. Built with Angular."
+          imageSrc="assets/friends-app.png"
+          liveUrl="https://friends-app-rahul.vercel.app"
+          githubUrl="https://github.com/dasurahul/friends-app"
+        />
+        <Project
           title="My Portfolio"
           subtitle="This is my portfolio. Here you will find all my experience, projects, skills, education, certifications and more."
           imageSrc="assets/my-portfolio.png"
