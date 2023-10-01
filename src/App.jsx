@@ -95,6 +95,30 @@ export default function App() {
           certificationProvider="Udemy"
           certificateURL="https://udemy-certificate.s3.amazonaws.com/pdf/UC-319460cf-2a2c-4bbb-86c0-fc99aa5cb5f9.pdf"
         />
+        <Certification
+          certificationName="React (Basic) Certificate"
+          imageSrc="assets/hackerrank.jpeg"
+          certificationProvider="HackerRank"
+          certificateURL="https://www.hackerrank.com/certificates/07cc06c37c11"
+        />
+        <Certification
+          certificationName="JavaScript (Intermediate) Certificate"
+          imageSrc="assets/hackerrank.jpeg"
+          certificationProvider="HackerRank"
+          certificateURL="https://www.hackerrank.com/certificates/27879c6743c5"
+        />
+        <Certification
+          certificationName="JavaScript (Basic) Certificate"
+          imageSrc="assets/hackerrank.jpeg"
+          certificationProvider="HackerRank"
+          certificateURL="https://www.hackerrank.com/certificates/1c057418766a"
+        />
+        <Certification
+          certificationName="CSS Certificate"
+          imageSrc="assets/hackerrank.jpeg"
+          certificationProvider="HackerRank"
+          certificateURL="https://www.hackerrank.com/certificates/13f1053481f2"
+        />
       </Section>
 
       <Footer />
