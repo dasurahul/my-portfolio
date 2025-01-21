@@ -4,13 +4,7 @@ import {
   BiLogoTypescript,
 } from "react-icons/bi";
 import { FaAngular, FaReact } from "react-icons/fa";
-import {
-  SiExpress,
-  SiMongodb,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiSass,
-} from "react-icons/si";
+import { SiMui, SiSass } from "react-icons/si";
 
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
@@ -31,9 +25,15 @@ export default function App() {
       <Section title="Experience">
         <Experience
           desgination="Software Engineer"
+          company="CapeZero, Inc."
+          imageSrc="assets/capezero.png"
+          range="2023 Oct - Present"
+        />
+        <Experience
+          desgination="Software Engineer"
           company="Kellton"
           imageSrc="assets/kellton.svg"
-          range="2022 Aug - Present"
+          range="2022 Aug - 2023 Oct"
           invertImage={true}
         />
         <Experience
@@ -46,6 +46,13 @@ export default function App() {
       </Section>
 
       <Section title="Projects" autofit={true}>
+        <Project
+          title="JSONic"
+          subtitle="This project is a clone of JSONPlaceholder, which is a fake REST API for testing and prototyping."
+          imageSrc="assets/jsonic.png"
+          liveUrl="https://jsonic.vercel.app/"
+          githubUrl="https://github.com/dasurahul/jsonic"
+        />
         <Project
           title="Encode"
           subtitle="Encode is a web application that allows users to write, edit, and preview HTML, CSS, and JavaScript code in real-time."
@@ -61,16 +68,22 @@ export default function App() {
           githubUrl="https://github.com/dasurahul/friends-app"
         />
         <Project
-          title="My Portfolio"
-          subtitle="This is my portfolio. Here you will find all my experience, projects, skills, education, certifications and more."
-          imageSrc="assets/my-portfolio.png"
-          liveUrl="/"
-          githubUrl="https://github.com/dasurahul/my-portfolio"
+          title="Yelpcamp"
+          subtitle="A landing page with multiple pages. Built with HTML, CSS (for good custom animations) and JavaScript"
+          imageSrc="assets/yelpcamp.png"
+          liveUrl="https://yelpcamp-rahul.netlify.app/"
+          githubUrl="https://github.com/dasurahul/yelpcamp"
+        />
+        <Project
+          title="Sunnyside"
+          subtitle="Sunnyside Agency landing page. Built with HTML, and CSS only. A challenge from Frontend Mentor that I completed."
+          imageSrc="assets/sunnyside.png"
+          liveUrl="https://sunnyside-agency-rahul.netlify.app/"
+          githubUrl="https://github.com/dasurahul/Sunnyside-agency-landing-page"
         />
       </Section>
 
       <Section title="Skills" autofit={true}>
-        <Skill icon={<SiNextdotjs />} name="Next.js" color="#000000" />
         <Skill icon={<FaReact />} name="React" color="#61DBFB" />
         <Skill icon={<FaAngular />} name="Angular" color="#DD1B16" />
         <Skill icon={<BiLogoTypescript />} name="TypeScript" color="#007ACC" />
@@ -80,10 +93,8 @@ export default function App() {
           name="Tailwind CSS"
           color="#0DB7ED"
         />
+        <Skill icon={<SiMui />} name="JavaScript" color="#2196f3" />
         <Skill icon={<SiSass />} name="Sass" color="#C69" />
-        <Skill icon={<SiMongodb />} name="MongoDB" color="#00684A" />
-        <Skill icon={<SiExpress />} name="Express.js" color="#000000" />
-        <Skill icon={<SiNodedotjs />} name="Node.js" color="#3C873A" />
       </Section>
 
       <Section title="Education">
@@ -103,22 +114,16 @@ export default function App() {
           certificateURL="https://udemy-certificate.s3.amazonaws.com/pdf/UC-319460cf-2a2c-4bbb-86c0-fc99aa5cb5f9.pdf"
         />
         <Certification
-          certificationName="React (Basic) Certificate"
-          imageSrc="assets/hackerrank.jpeg"
-          certificationProvider="HackerRank"
-          certificateURL="https://www.hackerrank.com/certificates/07cc06c37c11"
-        />
-        <Certification
           certificationName="JavaScript (Intermediate) Certificate"
           imageSrc="assets/hackerrank.jpeg"
           certificationProvider="HackerRank"
           certificateURL="https://www.hackerrank.com/certificates/27879c6743c5"
         />
         <Certification
-          certificationName="JavaScript (Basic) Certificate"
-          imageSrc="assets/hackerrank.jpeg"
-          certificationProvider="HackerRank"
-          certificateURL="https://www.hackerrank.com/certificates/1c057418766a"
+          certificationName="JavaScript Algorithms and Data Structures Masterclass"
+          imageSrc="assets/udemy.svg"
+          certificationProvider="Udemy"
+          certificateURL="https://www.udemy.com/certificate/UC-fe91980d-ac0c-42e6-b0ee-0e14e50f042e/"
         />
         <Certification
           certificationName="CSS Certificate"

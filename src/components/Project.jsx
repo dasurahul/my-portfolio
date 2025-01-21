@@ -12,7 +12,11 @@ export default function Project({
 }) {
   return (
     <div className="border border-gray-200 rounded-lg shadow hover:shadow-md transition-all">
-      <img className="rounded-t-lg" src={imageSrc} alt={title} />
+      <img
+        className="max-h-40 w-full rounded-t-lg"
+        src={imageSrc}
+        alt={title}
+      />
       <div className="border-t border-t-gray-200 p-5">
         <h5 className="font-semibold text-gray-900 mb-2">{title}</h5>
         <p className="font-normal text-gray-700 mb-3">{subtitle}</p>

@@ -8,9 +8,9 @@ export default function Experience({
   invertImage = false,
 }) {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 items-center">
       <img
-        className={`w-12 h-12 ${invertImage && "invert"}`}
+        className={`w-24 h-24 ${invertImage && "invert"}`}
         src={imageSrc}
         alt={company}
       />
