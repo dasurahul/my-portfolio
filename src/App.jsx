@@ -123,7 +123,7 @@ export default function App() {
           certificationName="JavaScript Algorithms and Data Structures Masterclass"
           imageSrc="assets/udemy.svg"
           certificationProvider="Udemy"
-          certificateURL="https://www.udemy.com/certificate/UC-fe91980d-ac0c-42e6-b0ee-0e14e50f042e/"
+          certificateURL="https://udemy-certificate.s3.amazonaws.com/image/UC-fe91980d-ac0c-42e6-b0ee-0e14e50f042e.jpg?v=1718590178000"
         />
         <Certification
           certificationName="CSS Certificate"
