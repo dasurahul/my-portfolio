@@ -4,7 +4,7 @@ import {
   BiLogoTypescript,
 } from "react-icons/bi";
 import { FaAngular, FaReact } from "react-icons/fa";
-import { SiMui, SiSass } from "react-icons/si";
+import { SiMui, SiNextdotjs, SiSass } from "react-icons/si";
 
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
@@ -84,6 +84,7 @@ export default function App() {
       </Section>
 
       <Section title="Skills" autofit={true}>
+        <Skill icon={<SiNextdotjs />} name="Next.js" color="#000000" />
         <Skill icon={<FaReact />} name="React" color="#61DBFB" />
         <Skill icon={<FaAngular />} name="Angular" color="#DD1B16" />
         <Skill icon={<BiLogoTypescript />} name="TypeScript" color="#007ACC" />
